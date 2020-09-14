@@ -1,0 +1,263 @@
+.sectionForm {
+  background-color: #718964;
+  width: 95%;
+  height: 800px;
+  margin: 10px;
+  padding: 10px;
+  justify-conetent: center; }
+
+.logo:hover {
+  transition: 1s;
+  transform: rotate(360deg); }
+
+.bottom {
+  color: red;
+  font-style: italic;
+  text-align: center; }
+
+ul li {
+  color: blue;
+  list-style-type: none;
+  text-align: left; }
+
+.fontCmm {
+  font-family: 'Homemade Apple', cursive; }
+
+.background {
+  background-color: white;
+  background-size: cover; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr 3fr 2fr 0.2fr;
+  grid-gap: 1px 1px;
+  grid-template-areas: "Logo . NOMBRE NOMBRE ."  " HEAD HEAD HEAD HEAD HEAD"  ". IMAGE IMAGE IMAGE ." "Banners Banners Banners Banners Banners" "Footer Footer Footer Footer Footer"; }
+
+.ASIDE {
+  grid-area: ASIDE; }
+
+.NOMBRE {
+  grid-area: NOMBRE; }
+
+.IMAGE {
+  grid-area: IMAGE; }
+
+.BANNERS {
+  grid-area: Banners; }
+
+.Logo {
+  grid-area: Logo; }
+
+.HEAD {
+  grid-area: HEAD; }
+
+.Footer {
+  grid-area: Footer; }
+
+.FormatoItalica {
+  font-style: italic;
+  text-align: center; }
+
+.TituloVerde {
+  color: green; }
+
+.TextRight {
+  text-align: right; }
+
+.TextItalic {
+  font-style: italic; }
+
+.titles {
+  font-family: 'Homemade Apple', cursive;
+  text-align: center; }
+
+.contenedor {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto; }
+
+.recuadro {
+  background-color: #FFCDCD;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 50px; }
+
+.recuadro__img {
+  width: 300px;
+  height: 180px;
+  margin-right: 30px; }
+
+.recuadro__titulo {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  margin-bottom: 20px; }
+
+.recuadro__parrafo {
+  font-family: "Montserrat";
+  line-height: 28px;
+  font-size: 1rem; }
+
+.boton {
+  height: 40px;
+  padding: 10px;
+  background-color: #CDCFFF;
+  color: white;
+  display: inline-block;
+  text-decoration: none; }
+
+.boton--derecha {
+  position: absolute;
+  right: 20px;
+  bottom: 15px; }
+
+.Importante {
+  text-align: center;
+  font-style: bold;
+  font-size: 150%;
+  background-color: orange;
+  width: 1200px;
+  height: 270px;
+  padding: 30px 30px 30px 30px;
+  margin-left: 40px;
+  border-left: 6px solid red;
+  border-right: 6px solid red;
+  border-top: 6px solid red;
+  border-bottom: 6px solid red;
+  overflow: scroll; }
+
+.sectionOne {
+  background-color: pink;
+  width: 95%;
+  height: 250px;
+  margin: 10px;
+  padding: 10px; }
+
+.encabezadoUno {
+  background-color: #ABACD6;
+  width: 330px;
+  height: 25px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  display: inline-grid; }
+
+.encabezadoDos {
+  background-color: #ABACD6;
+  width: 330px;
+  height: 25px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  display: inline-grid; }
+
+.encabezadoTres {
+  background-color: #ABACD6;
+  width: 330px;
+  height: 25px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  display: inline-grid; }
+
+.productoUno {
+  background-color: #ABACD6;
+  width: 330px;
+  height: 135px;
+  margin: 10px;
+  padding: 10px;
+  align-self: center;
+  color: white;
+  display: inline-grid;
+  justify-content: center; }
+
+.productoDos {
+  background-color: #ABACD6;
+  width: 330px;
+  height: 135px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  display: inline-grid;
+  justify-content: center; }
+
+.productoTres {
+  background-color: #ABACD6;
+  width: 330px;
+  height: 135px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  display: inline-grid;
+  justify-content: center; }
+
+.sectionCarrousel {
+  background-color: white;
+  width: 95%;
+  height: 300px;
+  margin: 5px;
+  padding: 5px; }
+
+.sectionBanner {
+  background-color: pink;
+  width: 95%;
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+  justify-conetent: center; }
+
+.bannerUno {
+  background-color: #3c918c;
+  width: 300px;
+  height: 250px;
+  margin: 10px;
+  padding: 10px;
+  align-self: center;
+  color: white;
+  display: inline-grid;
+  justify-content: center; }
+
+.bannerDos {
+  background-color: #3c918c;
+  width: 300px;
+  height: 250px;
+  margin: 10px;
+  padding: 10px;
+  align-self: center;
+  color: white;
+  display: inline-grid;
+  justify-content: center; }
+
+.bannerTres {
+  background-color: #3c918c;
+  width: 300px;
+  height: 250px;
+  margin: 10px;
+  padding: 10px;
+  align-self: center;
+  color: white;
+  display: inline-grid;
+  justify-content: center; }
+
+.bannerCuatro {
+  background-color: #3c918c;
+  width: 300px;
+  height: 250px;
+  margin: 10px;
+  padding: 10px;
+  align-self: center;
+  color: white;
+  display: inline-grid;
+  justify-content: center; }
+
+.bannImg:hover {
+  transition: 1s;
+  transform: translate(0px, 20px); }
